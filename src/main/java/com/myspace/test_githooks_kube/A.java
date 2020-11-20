@@ -6,12 +6,23 @@ package com.myspace.test_githooks_kube;
 
 public class A implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public A() {
-    }
+	private java.lang.String x;
 
+	public A() {
+	}
 
+	public java.lang.String getX() {
+		return this.x;
+	}
 
+	public void setX(java.lang.String x) {
+		this.x = x;
+	}
+
+	public A(java.lang.String x) {
+		this.x = x;
+	}
 
 }
